@@ -1,0 +1,1084 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Jost,sans-serif;
+    position: relative;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 270px 10px 270px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: white;
+    box-shadow: 0 0 40px #180a68 ;
+}
+nav ion-icon{
+font-size: 50px;
+color: #003C63;
+}
+/* home container start */
+
+.home-Container{
+    width: 100%;
+    z-index: 0;
+    position: relative;
+
+}
+.home-Container img{
+    width: 100%;
+    z-index: -1;
+    position: relative;
+ 
+}
+.home{
+    padding: 0 270px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 1;
+    /* background-color: aqua; */
+    color: white;
+}
+.home h1{
+    font-size: 3.8rem;
+    text-align: center;
+    padding-top: 3rem;
+    text-shadow: 5px 4px 25px #003C63;
+}
+.bg-icon-img{
+    top: 20px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bg-icon-img img{
+    margin: 0 3em;
+    width: 100%;
+    height: auto;
+}
+.bg-product-img {
+    width: 32em;
+    position: absolute;
+    left: 39%;
+    top: 494px;
+}
+.bg-product-img img{
+    width: 100%;
+}
+.product-img{
+    position: absolute;
+    top: 684px;
+    left: 40%;
+    width: 30em;
+    z-index: 9;
+    background-size: cover;
+}
+.product-img img{
+width: 100%;
+}
+
+.home-content-img{
+    background-color: white;
+  width: 100%;
+  padding: 20px 270px;
+  position: relative;
+  z-index: -1;
+}
+.home-content-img img{
+    width: 80%;
+    right: 0;
+    position: absolute;
+}
+.home-content{
+    padding: 10px 0px;
+    overflow: hidden;
+}
+.home-content p{
+    font-size: 25px;
+    margin: 15px 0;
+    font-weight: 300;
+}
+.home-content p:first-child{
+    color: #003C63;
+    font-size: 40px;
+    font-weight: 300;
+}
+/* home container end */
+
+/* Security container start */
+.security-Container{
+    position: relative;
+    width: 100%;
+    background-color: #F6F5FF;
+    padding: 60px 270px 700px 270px;
+}
+.security-privacy{
+    display: flex;
+}
+.security-content{
+    padding: 20px;
+    width: 60%;
+}
+.security-content h3{
+    font-size: 60px;
+    color: #003C63;
+}
+.security-content p{
+    font-size: 25px;
+    padding: 10px 0;
+    font-weight: 300;
+}
+.security-img{
+    width: 40%;
+}
+.security-img img{
+    width: 100%;
+}
+.security-Container h2{
+    font-size: 50px;
+    color: #003C63;
+    text-align: center;
+    margin: 40px 0;
+}
+.prime-lab-container{
+    background-color: white;
+    padding: 70px 19em;
+    left: 0;
+    /* width: 100%; */
+    position: absolute;
+    /* left: -350px; */
+    border-radius: 0px 45px 45px 0px;
+    width: 80%;
+    z-index: 6;
+}
+.prime-lab-container h2{
+    font-size: 60px;
+    text-align: start;
+}
+.prime-lab-container p{
+    font-size: 25px;
+    line-height: 1.7;
+    font-weight: 300;
+    text-align: start;
+}
+.prime-lab-container p span, .security-content2 p span{
+    font-weight: 400;
+}
+.youtub-container{
+    position: absolute;
+    /* width: 40%; */
+    top: 40%;
+    left: 82%;
+}
+.prime-lab-container a{
+    display: grid;
+    place-items: center;
+    /* width: 20em; */
+    box-shadow: 0px 0px  30px  #003C63;
+}
+.prime-lab-container img{
+    width: 30rem;
+}
+.prime-lab-container img:first-child{
+    position: absolute;
+    width: 5rem;
+}
+.security-content2{
+    background-image: linear-gradient(110deg, #003C63, #312975);
+    padding: 250px 270px 40px 270px;
+    width: 100%;
+    left: 0;
+    bottom: -250px;
+    position: absolute;
+    z-index: 2;
+}
+.security-content2 p{
+    font-size: 25px;
+    color: white;
+    text-align: start;
+    font-weight: 300;
+}
+/* Security container end */
+/* Remote-Access-container start */
+.Remote-Access-container{
+    position: relative;
+    width: 100%;
+    margin-top: 240px;
+    padding: 70px 270px;
+    /* background-color: white; */
+
+}
+.Remote-Access{
+    display: flex;
+}
+.Remote-Access-content{
+    padding: 10px 30px;
+    width: 60%;
+}
+.Remote-Access-content h2{
+   font-size: 60px;
+    color:  #003C63;
+}
+.Remote-Access-content h3 {
+    font-size: 25px;
+    color:  #001a63;
+   padding-left: 30%;
+    font-weight: 700;
+    /* margin-bottom: 20px; */
+}
+.Remote-Access-content p{
+    padding-top: 30px;
+    font-size: 25px;
+    font-weight: 300;
+
+}
+.Remote-Access-content p span{
+    font-weight: 400;
+    /* display: inline; */
+}
+.Remote-Access-img{
+    padding: 10px 30px;
+    width: 40%;
+}
+.Remote-Access-img img{
+    width: 100%;
+}
+.Remote-Access-img span{
+    padding: 20px 30px;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+}
+.bg-Remote-Access{
+    width: 80%;
+    position: absolute;
+    left: 0;
+    top: 25em;
+    z-index: -1;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+.bg-Remote-Access img{
+    width: 100%;
+}
+.youtub-Remote-Access{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 70px 0;
+}
+.youtub{
+    margin: 50px 0;
+    position: relative;
+}
+.youtub span{
+    width: 10rem;
+    height: 10rem;
+    background-color: rgb(194 187 255);
+    border-radius: 50%;
+    position: absolute;
+    right: -70px;
+    bottom: -70px;
+    z-index: -1;
+}
+.youtub a{
+    display: grid;
+    place-items: center;
+    /* box-shadow: 0px 0px  30px  #aabcc9;  */
+    border-radius: 60px 0px 60px 0px;
+}
+.youtub a img:last-child{
+    border-radius: 60px 0px 60px 0px;
+}
+.youtub a img:first-child{
+    position: absolute;
+    width: 5rem;
+}
+/* Remote-Access-container end */
+/* Public Cloud container start */
+.public-Cloud{
+    width: 100%;
+    padding: 0 270px;
+    background-color: rgba(226, 224, 243, 0.34);
+}
+.public-Cloud-img{
+width: 100%;
+
+}
+.public-Cloud-img img{
+    width: 100%;
+}
+.public-Cloud-img a{
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: #000;
+    padding: 20px 0;
+    font-weight: 400;
+}
+/* Public Cloud container end */
+/* Additional Benefits container start */
+.additional-Benefits{
+    width: 100%;
+    padding: 70px 270px;
+    text-align: center;
+}
+.additional-Benefits h1{
+    font-size: 50px;
+    color:#003C63;
+}
+.additional-Benefits p{
+    padding: 20px  30px;
+    font-size: 25px;
+    font-weight: 300;
+}
+.additional-Benefits-cards{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+.additional-Benefits-cards .card{
+    padding: 10px 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.additional-Benefits-cards .card .card-img{
+    width:10rem;
+    align-items: center;
+
+}
+.card-img img{
+    width: 100%;
+}
+.additional-Benefits-cards .card h3{
+    font-size: 30px;
+}
+.additional-Benefits-cards .card{
+    font-size: 22px;
+}
+.additional-Benefits-cards .card:hover{
+    background-color:rgba(226, 224, 243, 0.34);
+    box-shadow: 0px 0px 50px#274e715b;
+}
+/* Additional Benefits container End */
+/*  Applications container start*/
+.Applications{
+    text-align: center;
+    background-color: rgba(226, 224, 243, 0.34);
+    padding: 70px 270px;
+}
+.Applications h1{
+    font-size: 50px;
+    color:#003C63;
+}
+.Applications p{
+    padding: 20px  30px;
+    font-size: 25px;
+    font-weight: 300;
+}
+.Applications-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.Applications-card{
+    margin: 20px 0;
+}
+.Applications-card-img{
+    width:30rem ;
+}
+.Applications-card-img img{
+    width: 100%;
+}
+.Applications-card-content{
+    width:33rem ;
+    padding: 20px 10px;
+    background-color: white;
+    border-radius: 50px 0px 50px 0px;
+    position: relative;
+    top: -170px;
+    right: -115px;
+    box-shadow: 0 3px 50px #003b6366;
+}
+.Applications-card-content h3{
+    font-size: 25px;
+}
+.Applications-card-content p{
+    font-size: 23px;
+    text-align: start;
+}
+/*  Applications container end*/
+/* Other Applications container start */
+.other-Applications{
+    width: 100%;
+    padding: 70px 270px;
+    text-align: center;
+}
+.other-Applications h1{
+    font-size: 50px;
+    color:#003C63;
+}
+.other-Applications p{
+    padding: 20px  30px;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.other-Applications-cards{
+    display: flex;
+    justify-content: space-between;
+
+}
+.other-Applications-card{
+    /* width: 20rem; */
+    /* margin: 0 auto; */
+    position: relative;
+    overflow: hidden;
+}
+.other-Applications-card img{
+    width: 100%;
+    overflow: hidden;
+}
+.other-Applications-card a{
+    background-image:linear-gradient(to right, #003C63,#003b63af,#003b63af,#003b6391,#003b6300);
+    padding: 10px;
+    color: white;
+    display:block;
+    position: absolute;
+    bottom: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    width: 100%;
+    text-align: start;
+}
+.other-Applications-card a:hover{
+    padding: 10px 15px;
+}
+/* Other Applications container end */
+/* Founder container start */
+.Founder{
+    display: flex;
+    width: 100%;
+    position: relative;
+    /* padding: 30px 270px; */
+}
+.founder-img{
+    width: 100%;
+    z-index: -2;
+}
+.founder-img img{
+    width: 100%;
+}
+.founder-content{
+    width: 100%;
+    padding: 30px 25px;
+    box-shadow: 0px 0px 50px #003c6363;
+     /* height: 20rem; */
+    height: 30rem; 
+    background-color: white;
+    position: relative;
+    left: -50px;
+    top: 50px;
+    z-index: 9;
+    border-radius: 60px 0 60px 0;
+}
+.founder-content h2{
+    font-size: 50px;
+    color:#003C63;
+}
+.founder-content p{
+    font-size: 28px;
+    font-weight: 300;
+}
+/* Founder container end */
+/* footer container start */
+footer{
+    width: 100%;
+    background-color: #003C63;
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 270px;
+    margin: 15rem 0;
+    position: relative;
+}
+.footer-img img{
+    border-bottom: 1px solid white;
+    padding-bottom:20px ;
+}
+.mail{
+    width: 100%;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.mail ion-icon{
+    display: inline;
+    font-size: 32px;
+    /* font-weight: 500; */
+    padding: 0 10px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+    width: 30rem;
+    height: 35rem;
+    padding: 40px 30px;
+    box-shadow: 0 0 30px #003c6363;
+    border-radius: 60px 0 60px 0;
+    position: absolute;
+    right: 10%;
+    top: -10rem;
+}
+.contact h3{
+    font-size: 50px;
+    color:#003C63;
+    text-align: center;
+    text-transform: capitalize;
+}
+.contact label{
+    font-size: 20px;
+    color: #b1b1b1;
+    font-weight: 700;
+}
+.contact input{
+    border: none;
+    outline: none;
+    padding-bottom: 10px;
+    font-size: 16px;
+    border-bottom: 2px solid rgb(199, 196, 196);
+}
+.contact button{
+    
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    background-color: #001a63;
+    width: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/* footer container End */
+
+@media (width<=1800px) {
+    footer{
+        padding: 70px 170px;
+    }
+    header{
+        padding: 30px 170px 10px 170px;
+    }
+    .home{
+        padding: 0 170px;
+    }
+    .home-content-img{
+        padding: 20px 170px;
+    }
+    .home-content {
+        padding: 8em 0px;
+    }
+    .security-Container {
+        padding: 60px 170px 47em 170px;
+    }
+    .security-content2 {
+        padding: 250px 170px 40px 170px;
+    }
+    .Remote-Access-container {
+        padding: 70px 170px;
+    }
+    .public-Cloud {
+        padding: 0 170px;
+    }
+    .additional-Benefits {
+        padding: 70px 170px;
+    }
+    .Applications {
+        padding: 70px 170px;
+    }
+    .other-Applications {
+        padding: 70px 170px;
+    }
+    /* .prime-lab-container {
+
+    } */
+}
+
+@media (width<=1600px) {
+    footer{
+        padding: 70px 70px;
+    }
+    header{
+        padding: 30px 70px 10px 70px;
+    }
+    .home{
+        padding: 0 70px;
+    }
+    .home-content-img{
+        padding: 20px 70px;
+    }
+    .home-content {
+        padding: 15em 0px;
+    }
+    .security-Container {
+        padding: 60px 70px 47em 70px;
+    }
+    .security-content2 {
+        padding: 2em 70px 40px 70px;
+    }
+    .Remote-Access-container {
+        padding: 70px 70px;
+    }
+    .public-Cloud {
+        padding: 0 70px;
+    }
+    .additional-Benefits {
+        padding: 70px 70px;
+    }
+    .Applications {
+        padding: 70px 70px;
+    }
+    .other-Applications {
+        padding: 70px 70px;
+    }
+    .prime-lab-container {
+        padding: 70px 9em;
+    }
+    .prime-lab-container img{
+        width: 20rem;
+    }
+    .prime-lab-container a {
+        display: grid;
+        place-items: center;
+        /* width: 20em; */
+        box-shadow: 0px 0px 30px #003b634f;
+        position: absolute;
+        right: -28rem;
+    }
+    .additional-Benefits-cards {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 50px 0;
+    }
+    .Applications-card-content {
+        right: -65px;
+    }
+    
+}
+
+@media (width<=1400px) {
+    footer{
+        padding: 70px 15px;
+        width: 100%;
+    }
+    header{
+        width: 100%;
+        padding: 30px 15px 10px 15px;
+    }
+    .home{
+        width: 100%;
+        padding: 0 15px;
+    }
+    .home-content-img{
+        width: 100%;
+        padding: 20px 15px;
+    }
+    .home-content {
+        padding: 17em 20px;
+    }
+    .security-Container {
+        padding: 60px 15px 47em 15px;
+    }
+    .security-content2 {
+        padding: 2em 15px 40px 15px;
+    }
+    .Remote-Access-container {
+        padding: 10px 15px;
+    }
+    .public-Cloud {
+        padding: 0 15px;
+    }
+    .additional-Benefits {
+        padding: 70px 15px;
+    }
+    .Applications {
+        padding: 70px 15px;
+    }
+    .other-Applications {
+        padding: 70px 15px;
+    }
+    .prime-lab-container {
+        padding: 70px 9em;
+    }
+    .prime-lab-container img{
+        width: 20rem;
+    }
+    .prime-lab-container a {
+        display: grid;
+        place-items: center;
+        /* width: 20em; */
+        box-shadow: 0px 0px 30px #003C63;
+        position: absolute;
+        right: -28rem;
+    }
+    .additional-Benefits-cards {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 50px 0;
+    }
+    .Applications-card-content {
+        right: 0px;
+    }
+    .founder-content {
+        height: 35rem;
+        left: -23px;
+        top: 30px;
+    }
+    .bg-icon-img img:last-child{
+        display: none;
+    }
+    .home h1 {
+        font-size: 5rem;
+    }
+    .Remote-Access {
+        padding-top: 30px;
+    }
+    .youtub-container {
+        position: absolute;
+        /* width: 40%; */
+        top: 40%;
+        left: 75%;
+    }
+}
+@media (width<=1200px) {
+    footer{
+        padding: 70px 15px;
+        width: 100%;
+    }
+    header{
+        width: 100%;
+        padding: 30px 15px 10px 15px;
+    }
+    .home{
+        width: 100%;
+        padding: 0 15px;
+    }
+    .home-content-img{
+        width: 100%;
+        padding: 20px 15px;
+    }
+    .home-content {
+        padding: 17em 20px;
+    }
+    .security-Container {
+        padding: 60px 15px 47em 15px;
+    }
+    .security-content2 {
+        padding: 2em 15px 40px 15px;
+    }
+    .Remote-Access-container {
+        padding: 10px 15px;
+    }
+    .public-Cloud {
+        padding: 0 15px;
+    }
+    .additional-Benefits {
+        padding: 70px 15px;
+    }
+    .Applications {
+        padding: 70px 15px;
+    }
+    .other-Applications {
+        padding: 70px 15px;
+    }
+    .prime-lab-container {
+        padding: 50px 3em;
+    }
+    .prime-lab-container img{
+        width: 20rem;
+        display: none;
+    }
+    .prime-lab-container a {
+        display: grid;
+        place-items: center;
+        /* width: 20em; */
+        box-shadow: 0px 0px 30px #003C63;
+        position: absolute;
+        right: -28rem;
+    }
+    .additional-Benefits-cards {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 50px 0;
+    }
+    .Applications-card-content {
+        right: 0px;
+    }
+    .Founder {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        position: relative;
+        /* padding: 30px 270px; */
+    }
+    .founder-content {
+        height: 35rem;
+        left: -23px;
+        top: 30px;
+        margin: 50px;
+    }
+    .bg-icon-img img:last-child{
+        display: none;
+    }
+    .home h1 {
+        font-size: 5rem;
+    }
+    .Remote-Access {
+        padding-top: 30px;
+    }
+    .youtub-container {
+        position: absolute;
+        /* width: 40%; */
+        top: 40%;
+        left: 75%;
+    }
+    .other-Applications-cards {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+       
+    }
+    .other-Applications-card{
+        margin: 20px 0;
+    }
+    .bg-product-img {
+        width: 32em;
+        position: absolute;
+        left: 39%;
+        top: 330px;
+    }
+    .product-img {
+        position: absolute;
+        top: 508px;
+        left: 40%;
+        width: 30em;
+        z-index: 9;
+        background-size: cover;
+    }
+}
+
+@media (width<=1100px) {
+    .home h1 {
+        font-size: 4rem;
+    }
+    .bg-product-img {
+        width: 32em;
+        position: absolute;
+        left: 28%;
+        top: 330px;
+    }
+    .product-img {
+        position: absolute;
+        top: 508px;
+        left: 30%;
+        width: 30em;
+        z-index: 9;
+        background-size: cover;
+    }
+    .security-Container {
+        padding: 60px 15px 50em 15px;
+    }
+    .Applications-cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* align-items: center; */
+    }
+}
+@media (width<=900px) {
+    .bg-icon-img {
+        display: none;
+    }
+    .bg-product-img {
+        width: 32em;
+        position: absolute;
+        left: 28%;
+        top: 276px;
+    }
+    .product-img {
+        position: absolute;
+        top: 447px;
+        left: 30%;
+        width: 30em;
+        z-index: 9;
+        background-size: cover;
+    }
+    .security-Container {
+        padding: 60px 15px 60em 15px;
+    }
+    .youtub span {
+        display: none;
+    }
+    .contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: white;
+        width: 30rem;
+        height: 35rem;
+        padding: 40px 30px;
+        box-shadow: 0 0 30px #003C63;
+        border-radius: 60px 0 60px 0;
+        position: absolute;
+        right: 1%;
+        top: -10rem;
+    }
+}
+@media (width<=850px) {
+    .youtub a img:last-child {
+        border-radius: 60px 0px 60px 0px;
+        width: 100%;
+    }
+    .Remote-Access {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .Remote-Access-img {
+        padding: 10px 30px;
+        width: 100%;
+    }
+    .Remote-Access-content {
+        padding: 10px 30px;
+        width: 100%;
+    }
+    .security-privacy {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .security-img{
+        width: 100%;
+    }
+    .security-content {
+        padding: 20px;
+        width: 100%;
+    }
+    .home-content {
+        padding: 23em 20px 12em 20px;
+    }
+    .prime-lab-container {
+        width: 90%;
+    }
+    .bg-product-img {
+        width: 60%;
+    }
+}
+
+@media (width <= 770px) {
+    .prime-lab-container {
+        width: 100%;
+    }
+}
+@media (width <= 430px) {
+.logo{
+    width: 19rem;
+}
+.logo img{
+    width: 100%;
+    padding-top:15px ;
+}
+.home h1 {
+    font-size: 2em;
+}
+.product-img {
+    /* display: none; */
+    width: 90%;
+    top: 255px;
+    left: 2%;
+}
+.bg-product-img {
+    width: 90%;
+    left: 2%;
+    top: 135px;
+}
+.Applications-card-img{
+    width: 100%;
+}
+.Applications-card-content {
+    width: 90%;
+}
+.other-Applications-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.Remote-Access {
+    display: flex;
+    flex-direction: column-reverse;
+    /* padding-top: 12em; */
+}
+.prime-lab-container {
+    width: 100%;
+    padding: 15px;
+}
+.security-Container {
+    padding: 60px 15px 96em 15px;
+}
+.founder-content {
+    height: 35rem;
+    left: 23px;
+    top: 30px;
+    margin: 0px;
+    padding-left: 10px;
+    box-shadow: none;
+    position: relative;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+    width: 100%;
+    height: 23rem;
+    padding: 40px 30px;
+    box-shadow: 0 0 30px #003C63;
+    border-radius: 60px 0 60px 0;
+    position: absolute;
+    right: 1%;
+    top: 15rem;
+}
+.security-content h3 {
+    font-size: 3em;
+    color: #003C63;
+}
+.founder-content p {
+    font-size: 24px;
+    font-weight: 300;
+}
+.security-Container h2 {
+    font-size: 40px;
+}
+}
+@media (width <= 330px) {
+
+}
